@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes the full viewport height */
+  }
+  
+  header, footer {
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+  }
+  
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  h2 {
+    margin-top: 1rem;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .main-content {
+    flex: 1; /* Pushes the footer to the bottom if content is short */
+  }
+  

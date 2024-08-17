@@ -1,0 +1,112 @@
+@charset "UTF-9";
+/* สไตล์พื้นฐานสำหรับ navbar */
+.navbar {
+  display: flex;
+  background-color: #ea1010; /* สีพื้นหลังเทา */
+}
+
+
+/* สไตล์สำหรับรายการ navbar */
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+/* สไตล์สำหรับลิงก์ใน navbar */
+.navbar-link {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: #fbb1b1; /* สีตัวอักษรของลิงก์ */
+  background-color: transparent;
+  transition: color 0.3s;
+}
+
+/* การเปลี่ยนแปลงสีของลิงก์เมื่อชี้เมาส์ */
+.navbar-link:hover {
+  color: #00ff6afc; /* สีตัวอักษรเมื่อชี้เมาส์ */
+}
+
+
+
+/* สไตล์พื้นฐานสำหรับ .navbar-brand */
+.navbar-brand {
+  display: inline-block; /* ทำให้ลิงก์มีลักษณะเป็นบล็อกในแนวนอน */
+  font-size: 1.25rem; /* ขนาดตัวอักษร */
+  font-weight: bold; /* น้ำหนักตัวอักษรหนา */
+  color: #000000; /* สีของตัวอักษร */
+  text-transform: uppercase; /* เปลี่ยนตัวอักษรเป็นตัวพิมพ์ใหญ่ทั้งหมด */
+  text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+  letter-spacing: 0.1em; /* ช่องว่างระหว่างตัวอักษร */
+  padding: 0.5rem 1rem; /* ช่องว่างภายในลิงก์ */
+  border-radius: 0.25rem; /* มุมโค้งของลิงก์ */
+  background-color: rgba(23, 113, 68, 0.462); /* สีพื้นหลังของลิงก์ */
+  transition: background-color 0.3s, color 0.3s; /* การเปลี่ยนสีอย่างเรียบเนียน */
+}
+
+/* เปลี่ยนสีเมื่อชี้เมาส์ */
+.navbar-brand:hover {
+  background-color: #03a84bd9; /* สีพื้นหลังเมื่อชี้เมาส์ */
+  color: #000000; /* สีตัวอักษรเมื่อชี้เมาส์ */
+  text-decoration: underline; /* เพิ่มเส้นใต้เมื่อชี้เมาส์ */
+}
+
+
+
+
+/* Styling for the container */
+.elementor-widget-container {
+  text-align: start; /* Center align the heading */
+  padding: 20px; /* Add padding around the container */
+  background-color: #1659a500; /* Light background color for contrast */
+}
+
+/* Styling for the heading */
+.elementor-heading-title {
+  font-size: 2em; /* Adjust font size */
+  color: #2c2121; /* Dark color for the text */
+  margin: 0; /* Remove default margin */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Additional responsive design */
+@media (max-width: 768px) {
+  .elementor-heading-title {
+      font-size: 1.5em; /* Smaller font size for smaller screens */
+  }
+}
+
+
+/* Style for the section */
+.elementor-section {
+  padding: 20px; /* Add padding around the section */
+  background-color: #000000; /* Light background color */
+}
+
+/* Style for the container */
+.elementor-container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Style for the divider */
+.elementor-widget-divider {
+  margin: 20px 0; /* Add margin around the divider */
+}
+
+.elementor-divider-separator {
+  border-top: 2px solid #000000; /* Dark color and thickness for the divider line */
+  width: 50%; /* Set the width of the divider line */
+  display: block;
+  margin: 0 auto; /* Center the divider line */
+}
+
+
+
+
+
+
+
+ 

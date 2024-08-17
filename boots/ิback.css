@@ -1,0 +1,23 @@
+/* styles.css */
+
+body.bg-image {
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your image path */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
+  
+  header {
+    background-image: url('path/to/your/header-background-image.jpg'); /* Optional: if you want a different background image for the header */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+
+  body {
+    border: 5px solid rgb(255, 255, 255); /* เปลี่ยนสีและขนาดของกรอบได้ตามต้องการ */
+    margin: 0; /* ลบระยะห่างของกรอบที่เกิดจาก margin ของ body */
+    padding: 20px; /* เพิ่มระยะห่างภายในกรอบ */
+}
